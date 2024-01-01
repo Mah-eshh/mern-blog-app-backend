@@ -20,7 +20,8 @@ app.get('/',(req,res) => {
 });
 
 const CONNECTION_URL =
-  "mongodb+srv://mernstack:mernstack@mern-webapp.xarr4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+ /* "mongodb+srv://mernstack:mernstack@mern-webapp.xarr4.mongodb.net/?retryWrites=true&w=majority"; */
+    "mongodb+srv://mernblog:mernblog@cluster0.4nubjzq.mongodb.net/";
 const PORT = process.env.PORT || 5000;
 
 mongoose
